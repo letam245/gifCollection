@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tammy Food Gif Collection</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- Added link to the jQuery Library -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   	<!-- Added a link to Bootstrap-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   	<!-- Added a link to local style sheet-->
+  	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container">
+	<!-- request form here -->
+	<div class="jumbotron text-center">
+	<h2>What do you want to eat today?</h2>
+	<br>
+	<form id="food-request">
+      <label for="food-input">Your food suggestion</label>
+      <input type="text" id="food-input">
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-food" type="submit" value="Request">
+    </form>	
+	</div>
+
+	<!-- buttons for different kind of food here -->
+	<div class = "row">
+		<!-- buttons for different kind of food here -->
+		<div class="col-sm-4 btn-group-vertical" id ="food-button">button for different kind of food</div>
+
+		<!-- GIF images display here -->
+		<div class="col-sm-8" id ="gifHolder"></div>
+	</div>
+	
+</div>
+
+<!-- Link to javascript app.js -->
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
