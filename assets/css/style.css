@@ -1,0 +1,10 @@
+
+
+.show{
+	display: inline-block;
+}
+
+.btn-group-vertical>.btn{
+	margin-bottom:20px;
+
+}
