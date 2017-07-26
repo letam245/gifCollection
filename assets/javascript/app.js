@@ -10,7 +10,7 @@ var food = ['pizza', 'noodle', 'chinese food', 'taco', 'icecream', 'cake' ];
 //function to display the food gif images
 function displayGif() {
 	var foodChoice = $(this).attr('data-food');
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         foodChoice + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 //AJAX call
